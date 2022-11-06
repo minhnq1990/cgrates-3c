@@ -1,0 +1,3 @@
+#Id,DestinationRatesId,TimingTag,Weight
+RP_3C,DR_3C,*any,10
+RP_3C,DR_3C_EXTERNAL,*any,10

@@ -1,0 +1,11 @@
+#Tenant,ID,Contexts,FilterIDs,ActivationInterval,AttributeFilterIDs,Path,Type,Value,Blocker,Weight
+cgrates.org,ATTR_ACC_ALIAS,*any,*string:~*req.SubscriberId:1003,,,,,,false,10
+cgrates.org,ATTR_ACC_ALIAS,,,,,*req.Account,*constant,1002,,
+cgrates.org,ATTR_ACC_ALIAS,,,,,*req.RequestType,*constant,*prepaid,,
+
+cgrates.com,ATTR_TNT_ALIAS,*any,*string:~*req.SubscriberId:1003,,,,,,false,10
+cgrates.com,ATTR_TNT_ALIAS,,,,,*req.Account,*constant,1002,,
+cgrates.com,ATTR_TNT_ALIAS,,,,,*req.RequestType,*constant,*prepaid,,
+cgrates.com,ATTR_TNT_ALIAS,,,,,*tenant,*constant,cgrates.org,,
+
+cgrates.com,ATTR_TNT_1001,*any,*string:~*req.Account:1002,,,*tenant,*constant,cgrates.org,,
