@@ -1,4 +1,5 @@
 #Tenant,Account,ActionPlanId,ActionTriggersId,AllowNegative,Disabled
+# Use API
 #cgrates.org,1001,AP_BASIC_PACKAGE,,,
 #cgrates.org,1002,AP_BASIC_PACKAGE,RECURRENT_EXTERNAL,,
 cgrates.org,datxanh,AP_BASIC_PACKAGE,,,
