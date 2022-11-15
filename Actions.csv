@@ -1,12 +1,12 @@
 #ActionsId[0],Action[1],ExtraParameters[2],Filter[3],BalanceId[4],BalanceType[5],Categories[6],DestinationIds[7],RatingSubject[8],SharedGroup[9],ExpiryTime[10],TimingIds[11],Units[12],BalanceWeight[13],BalanceBlocker[14],BalanceDisabled[15],Weight[16]
-ACT_MONEY,*topup_reset,,,test,*monetary,,*any,,,*unlimited,,500,10,false,false,10
-ACT_VOICE,*topup_reset,,,FREE_MINS,*voice,,DST_3C,*zero1s,,,,10s,20,false,false,10
-ACT_VOICE_EXTERNAL,*topup,,,FREE_MINS_EXTERNAL,*voice,,DST_3C_EXTERNAL,*zero1s,,,,20s,10,false,false,10
-ACT_POST,*http_post,http://192.168.122.1:8080/test/post,,,,,,,,,,,,false,false,10
+#ACT_MONEY,*topup_reset,,,test,*monetary,,*any,,,*unlimited,,500,10,false,false,10
+#ACT_VOICE,*topup_reset,,,FREE_MINS,*voice,,DST_3C,*zero1s,,,,10s,20,false,false,10
+#ACT_VOICE_EXTERNAL,*topup,,,FREE_MINS_EXTERNAL,*voice,,DST_3C_EXTERNAL,*zero1s,,,,20s,10,false,false,10
+#ACT_POST,*http_post,http://192.168.122.1:8080/test/post,,,,,,,,,,,,false,false,10
 
-ACT_MONEY_GOI_0,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
+ACT_MONEY_GOI_0,*topup,,,test,*monetary,,*any,,,*unlimited,,1000,10,false,false,10
 ACT_VOICE_NOI_MANG_GOI_0,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,10000m,20,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_0,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,10000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_0,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,0000m,20,false,false,10
 
 ACT_MONEY_GOI_1,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
 ACT_VOICE_NOI_MANG_GOI_1,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,10000m,20,false,false,10
