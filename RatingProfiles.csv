@@ -3,5 +3,9 @@
 #cgrates.org,call,1002,2014-01-14T00:00:00Z,RP_3C,
 #cgrates.org,call,brandname,2014-01-14T00:00:00Z,RP_3C,
 #cgrates.org,call,datxanh,2014-01-14T00:00:00Z,RP_3C,
-cgrates.org,call,2004,2014-01-14T00:00:00Z,RP_3C,
-cgrates.org,call,2005,2014-01-14T00:00:00Z,RP_3C,
+cgrates.org,call,6002,2014-01-14T00:00:00Z,RP_3C,
+
+cgrates.org,call,SUBJECT_NOI_MANG_BAC_1,2014-01-14T00:00:00Z,RP_3C_BAC_1,
+cgrates.org,call,SUBJECT_NOI_MANG_BAC_2,2014-01-14T00:00:00Z,RP_3C_BAC_2,
+cgrates.org,call,SUBJECT_NOI_MANG_BAC_3,2014-01-14T00:00:00Z,RP_3C_BAC_3,
+cgrates.org,call,SUBJECT_NOI_MANG_BAC_4,2014-01-14T00:00:00Z,RP_3C_BAC_4,
