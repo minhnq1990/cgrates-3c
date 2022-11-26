@@ -4,48 +4,64 @@
 #ACT_VOICE_EXTERNAL,*topup,,,FREE_MINS_EXTERNAL,*voice,,DST_3C_EXTERNAL,*zero1s,,,,20s,10,false,false,10
 #ACT_POST,*http_post,http://192.168.122.1:8080/test/post,,,,,,,,,,,,false,false,10
 
+# GOI_0 - test
 ACT_MONEY_GOI_0,*topup,,,test,*monetary,,*any,,,*unlimited,,1000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_0,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,10000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,10s,50,false,false,10
+ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_1,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_1,,,,10s,40,false,false,10
+ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_2,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_2,,,,10s,30,false,false,10
+ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_3,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_3,,,,10s,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_4,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_4,,,,10000m,10,false,false,10
 ACT_VOICE_NGOAI_MANG_GOI_0,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,0000m,20,false,false,10
+############################### 
+
+ACT_VOICE_NOI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NOI_MANG_BAC_1,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_1,,,,1000m,40,false,false,10
+ACT_VOICE_NOI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NOI_MANG_BAC_2,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_2,,,,4000m,30,false,false,10
+ACT_VOICE_NOI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NOI_MANG_BAC_3,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_3,,,,5000m,20,false,false,10
+ACT_VOICE_NOI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NOI_MANG_BAC_4,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_4,,,,1000000m,10,false,false,10
+
+ACT_VOICE_NGOAI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NGOAI_MANG_BAC_1,*voice,,DST_NGOAI_MANG,SUBJECT_NGOAI_MANG_BAC_1,,,,1000m,40,false,false,10
+ACT_VOICE_NGOAI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NGOAI_MANG_BAC_2,*voice,,DST_NGOAI_MANG,SUBJECT_NGOAI_MANG_BAC_2,,,,4000m,30,false,false,10
+ACT_VOICE_NGOAI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NGOAI_MANG_BAC_3,*voice,,DST_NGOAI_MANG,SUBJECT_NGOAI_MANG_BAC_3,,,,5000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_BAC_THANG,*topup_reset,,,PHUT_GOI_NGOAI_MANG_BAC_4,*voice,,DST_NGOAI_MANG,SUBJECT_NGOAI_MANG_BAC_4,,,,1000000m,10,false,false,10
 
 ACT_MONEY_GOI_1,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_1,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,10000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_1_FREE,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,10000m,20,false,false,10
 
 ACT_MONEY_GOI_2,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_2,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,20000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_2_FREE,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,20000m,20,false,false,10
 
 ACT_MONEY_GOI_3,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_3,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,50000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_3_FREE,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,50000m,20,false,false,10
 
 ACT_MONEY_GOI_4,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_4,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,100000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_4_FREE,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,100000m,20,false,false,10
 
 ACT_MONEY_GOI_5,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_5,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,200000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_5_FREE,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,200000m,20,false,false,10
 
 ACT_MONEY_GOI_6,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_6,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,500000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_6_FREE,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,500000m,20,false,false,10
 
 ACT_MONEY_GOI_7,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NOI_MANG_GOI_7,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,1000000m,20,false,false,10
+ACT_VOICE_NOI_MANG_GOI_7_FREE,*topup,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*zero1s,,,,1000000m,20,false,false,10
 
 ACT_MONEY_GOI_8,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_8,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,10000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_8_FREE,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,10000m,20,false,false,10
 
 ACT_MONEY_GOI_9,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_9,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,20000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_9_FREE,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,20000m,20,false,false,10
 
 ACT_MONEY_GOI_10,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_10,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,50000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_10_FREE,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,50000m,20,false,false,10
 
 ACT_MONEY_GOI_11,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_11,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,100000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_11_FREE,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,100000m,20,false,false,10
 
 ACT_MONEY_GOI_12,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_12,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,200000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_12_FREE,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,200000m,20,false,false,10
 
 ACT_MONEY_GOI_13,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_13,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,500000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_13_FREE,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,500000m,20,false,false,10
 
 ACT_MONEY_GOI_14,*topup,,,test,*monetary,,*any,,,*unlimited,,100000000,10,false,false,10
-ACT_VOICE_NGOAI_MANG_GOI_14,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,1000000m,20,false,false,10
+ACT_VOICE_NGOAI_MANG_GOI_14_FREE,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,1000000m,20,false,false,10
