@@ -2,7 +2,7 @@
 #ACT_MONEY,*topup_reset,,,test,*monetary,,*any,,,*unlimited,,500,10,false,false,10
 #ACT_VOICE,*topup_reset,,,FREE_MINS,*voice,,DST_3C,*zero1s,,,,10s,20,false,false,10
 #ACT_VOICE_EXTERNAL,*topup,,,FREE_MINS_EXTERNAL,*voice,,DST_3C_EXTERNAL,*zero1s,,,,20s,10,false,false,10
-#ACT_POST,*http_post,http://192.168.122.1:8080/test/post,,,,,,,,,,,,false,false,10
+ACT_POST,*http_post,http://127.0.0.1:8085/test/post,,,,,,,,,,,,false,false,10
 
 # GOI_0 - test
 ACT_MONEY_GOI_0,*topup,,,test,*monetary,,*any,,,*unlimited,,1000,10,false,false,10
@@ -10,7 +10,7 @@ ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG,*voice,,DST_NOI_MANG,*
 ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_1,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_1,,,,10s,40,false,false,10
 ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_2,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_2,,,,10s,30,false,false,10
 ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_3,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_3,,,,10s,20,false,false,10
-ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_4,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_4,,,,10000m,10,false,false,10
+ACT_VOICE_NOI_MANG_GOI_0,*topup_reset,,,PHUT_GOI_NOI_MANG_GOI_0_BAC_4,*voice,,DST_NOI_MANG,SUBJECT_NOI_MANG_BAC_4,,,,10s,10,false,false,10
 ACT_VOICE_NGOAI_MANG_GOI_0,*topup,,,PHUT_GOI_NGOAI_MANG,*voice,,DST_NGOAI_MANG,*zero1s,,,,0000m,20,false,false,10
 ############################### 
 
