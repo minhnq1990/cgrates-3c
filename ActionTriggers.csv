@@ -1,9 +1,10 @@
 #Tag[0],UniqueId[1],ThresholdType[2],ThresholdValue[3],Recurrent[4],MinSleep[5],ExpiryTime[6],ActivationTime[7],BalanceTag[8],BalanceType[9],BalanceCategories[10],BalanceDestinationIds[11],BalanceRatingSubject[12],BalanceSharedGroup[13],BalanceExpiryTime[14],BalanceTimingIds[15],BalanceWeight[16],BalanceBlocker[17],BalanceDisabled[18],ActionsId[19],Weight[20]
-GIA_HAN_NOI_MANG_GOI_0,,*min_balance,0,true,0,,,,*voice,,,SUBJECT_NOI_MANG_BAC_4,,,,,,,ACT_POST,10
-GIA_HAN_NOI_MANG_GOI_0,,*min_balance,0,true,0,,,,*voice,,,SUBJECT_NOI_MANG_BAC_4,,,,,,,ACT_VOICE_NOI_MANG_GOI_0,10
+GIA_HAN_GOI_X0,,*min_balance,0,true,0,,,,*voice,,,,,,,,,,ACT_POST,10
+GIA_HAN_GOI_X0,,*min_balance,0,true,0,,,,*voice,,,,,,,,,,ACT_VOICE_NOI_MANG_GOI_X0_FREE,10
 
-GIA_HAN_NGOAI_MANG_GOI_0,,*min_balance,0,true,0,,,,*voice,,,SUBJECT_NGOAI_MANG_BAC_4,,,,,,,ACT_POST,10
-GIA_HAN_NGOAI_MANG_GOI_0,,*min_balance,0,true,0,,,,*voice,,,SUBJECT_NGOAI_MANG_BAC_4,,,,,,,ACT_VOICE_NGOAI_MANG_GOI_0,10
+
+#############################################
+
 
 GIA_HAN_NOI_MANG,,*min_balance,0,true,0,,,,*voice,,,SUBJECT_NOI_MANG_BAC_4,,,,,,,ACT_POST,10
 GIA_HAN_NOI_MANG,,*min_balance,0,true,0,,,,*voice,,,SUBJECT_NOI_MANG_BAC_4,,,,,,,ACT_VOICE_NOI_MANG_BAC_THANG,10
