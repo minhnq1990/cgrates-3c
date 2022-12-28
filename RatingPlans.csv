@@ -1,6 +1,5 @@
 #Id,DestinationRatesId,TimingTag,Weight
-#RP_3C,DR_3C,*any,10
-#RP_3C,DR_3C_EXTERNAL,*any,10
+RP_FREE,DR_FREE,*any,10
 
 RP_3C_BAC_1,DR_NOI_MANG_BAC_1,*any,10
 RP_3C_BAC_2,DR_NOI_MANG_BAC_2,*any,10

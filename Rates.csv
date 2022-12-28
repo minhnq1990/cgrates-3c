@@ -1,8 +1,5 @@
 #Id,ConnectFee,Rate,RateUnit,RateIncrement,GroupIntervalStart
-#RT_3C,0,10,1s,1s,0s
-#RT_3C,0,10,1s,1s,10s
-#RT_3C_EXTERNAL,0,20,1s,1s,0s
-#RT_3C_EXTERNAL,0,20,1s,1s,10s
+RT_FREE,0,0,1s,1s,0s
 
 RT_NOI_MANG_BAC_1,0,50,6s,6s,0s
 RT_NOI_MANG_BAC_1,0,8.3333,1s,1s,6s
